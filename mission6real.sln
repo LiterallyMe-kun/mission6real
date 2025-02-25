@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mission6real", "mission6real\mission6real.csproj", "{BCC69264-BE22-425B-BE5E-B2DB55F7435C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mission6real_Smith", "mission6real\mission6real_Smith.csproj", "{BCC69264-BE22-425B-BE5E-B2DB55F7435C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
