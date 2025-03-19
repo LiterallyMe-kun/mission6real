@@ -14,17 +14,17 @@
 @* } *@
 
 <form method="post">
+    <input type="hidden" asp-for="MovieId" /> @*this should prevent edits from creating new records*@
+    <br />
+
     <label asp-for="Title">Title:</label>
     <input asp-for="Title" />
     <br />
 
     <label asp-for="CategoryId">Category:</label>
-    <select asp-for="CategoryId">
-        @foreach (Category category in ViewBag.Categories)
-        {
-            <option value="@category.CategoryId">@category.CategoryName</option>
-        } 
-        @* This lets us populate the dropdown with the category table*@
+    <select asp-for="CategoryId" asp-items="ViewBag.Categories">
+        <option value="">Select a Category(default:Misc)</option> 
+     
     </select>
 
     <label asp-for="Year">Year:</label>

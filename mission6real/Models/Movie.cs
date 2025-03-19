@@ -14,10 +14,10 @@ namespace mission6real_Smith.Models
         public Category? Category { get; set; }
         [Required(ErrorMessage = "Please enter the movie title.")]
         public string Title { get; set; }
-        [Range(1888, 2100, ErrorMessage = "Please enter the year the movie released.")]
+        [Range(1887, 2100, ErrorMessage = "Please enter the year the movie released.")]
         public int Year { get; set; }
-        public string Director { get; set; } 
-        public string Rating { get; set; }
+        public string? Director { get; set; } 
+        public string? Rating { get; set; }
         [Required]
         public bool Edited { get; set; }
         public string? LentTo { get; set; }
